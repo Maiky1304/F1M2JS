@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 50px;
+    background: #2bb4c2;
+    
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #228d98;
+    padding: 25px 50px;
+    border-radius: 15px;
+}
+
+footer > button {
+    padding: 5px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+}
